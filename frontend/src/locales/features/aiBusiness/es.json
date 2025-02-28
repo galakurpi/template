@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "title": "Soluciones de Automatización con IA para Empresas | Yekar",
+    "description": "Transforma las operaciones de tu empresa con nuestras soluciones de automatización con IA. Aumenta la eficiencia, reduce costos y mejora la experiencia del cliente con Yekar."
+  },
+  "hero": {
+    "title": "Optimiza tu empresa con IA",
+    "subtitle": "Estudiamos los procesos de tu empresa a fondo y aplicamos soluciones para reducir costes y ganar tiempo.",
+    "primaryButton": "Contáctanos",
+    "secondaryButton": ""
+  },
+  "benefits": {
+    "title": "¿Cómo te podemos ayudar?",
+    "description": "La IA transformará todos los sectores.\nNos aseguramos de que este cambio no te deje atrás.",
+    "items": [
+      {
+        "title": "Mayor eficiencia",
+        "description": "Ayudamos a automatizar tareas para reducir costes y ganar tiempo."
+      },
+      {
+        "title": "Seguridad garantizada",
+        "description": "Implementamos los protocolos necesarios para proteger tus datos y operaciones."
+      },
+      {
+        "title": "Mejor experiencia del cliente",
+        "description": "Ofrece interacciones personalizadas y tiempos de respuesta más rápidos.\nTanto en el proceso de compra como en el post-venta."
+      },
+      {
+        "title": "Toma de decisiones",
+        "description": "Aprovecha los datos de tu empresa para tomar mejores decisiones estratégicas."
+      }
+    ]
+  },
+  "process": {
+    "title": "Cómo Implementamos",
+    "description": "Un enfoque estructurado que minimiza la interrupción.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Actualización",
+        "description": "Te actualizamos con cuáles son los últimos desarrollos de la IA y los mayores riesgos y ventajas para tu empresa."
+      },
+      {
+        "number": "02",
+        "title": "Evaluación",
+        "description": "Estudiamos tus procesos para identificar automatizaciones con el mayor potencial de impacto. Creamos un plan de acción para tu empresa."
+      },
+      {
+        "number": "03",
+        "title": "Desarrollo",
+        "description": "Construimos soluciones personalizadas que se integran en el contexto de tu empresa."
+      },
+      {
+        "number": "04",
+        "title": "Seguimiento",
+        "description": "Medimos el rendimiento de las soluciones aplicadas para asegurarnos de que funcionan de verdad.\nAñadimos mejoras continuas a tus automatizaciones.\nTe mantenemos actualizado sobre las últimas novedades de la IA."
+      }
+    ]
+  },
+  "caseStudies": {
+    "title": "Soluciones",
+    "description": "Yekar comenzó como una empresa de software.\nHemos añadido automatizaciones internamente y vemos la gran diferencia que suponen.\nQueremos llevar este cambio a todo el mundo. Estos son algunos de nuestros ejemplos:",
+    "cases": [
+      {
+        "industry": "Marketing",
+        "title": "Creación automática de videos",
+        "description": "Hemos creado un sistema que crea ideas y guiones de vídeos y los narra automáticamente con IA.\nReducimos el tiempo que se tarda en crear un video de marketing de 3 horas a 30 minutos.",
+        "metrics": ["Tiempo ahorrado: 150 minutos por video", "6 veces más rápido", "Calidad consistente"]
+      },
+      {
+        "industry": "Desarrollo de producto",
+        "title": "Búsqueda automática de documentación interna",
+        "description": "Estructuramos nuestra documentación interna y utilizamos la IA para encontrar lo que necesitamos en segundos (principalmente relacionado al desarrollo de software).",
+        "metrics": ["Desarrollo de software 50% más rápido", "Reducción de errores", "Mejora de la experiencia del usuario"]
+      }
+    ],
+    "possibilities": {
+      "title": "Posibilidades infinitas",
+      "departments": [
+        {
+          "name": "Marketing",
+          "description": "Creación de contenido automática y publicación, refinamiento basado en el análisis de datos."
+        },
+        {
+          "name": "Ventas",
+          "description": "Automatización de ventas, generación de leads outbound y gestión de relaciones con clientes."
+        },
+        {
+          "name": "Soporte al cliente",
+          "description": "Gestión de tickets, servicio al cliente y soporte del producto."
+        },
+        {
+          "name": "RRHH",
+          "description": "Optimización del proceso de contratación y gestión del talento."
+        },
+        {
+          "name": "Finanzas",
+          "description": "Automatización de informes, análisis de costes y análisis predictivo."
+        },
+        {
+          "name": "Desarrollo de producto",
+          "description": "Optimización de procesos y análisis de mercado."
+        }
+      ],
+      "conclusion": "Hemos identificado y diseñado automatizaciones específicas internamente que ahora estamos listos para implementar en nuestra empresa y en otras."
+    }
+  },
+  "cta": {
+    "title": "Hablemos de tu caso",
+    "description": "Programa una consulta para hablar de tu empresa y ver cómo puedes aprovechar la IA.",
+    "primaryButton": "Contáctanos",
+    "secondaryButton": ""
+  },
+  "contact": {
+    "title": "Contáctanos - Soluciones de Automatización con IA | Yekar",
+    "description": "¿Tienes una idea interesante de IA, una pregunta o simplemente quieres hablar de nuestro trabajo? Estamos aquí para escucharte. Ponte en contacto y estaremos listos para ayudarte, guiarte o simplemente compartir tu entusiasmo. ¡Vamos a crear una experiencia de IA memorable juntos!",
+    "heading": "Ponte en Contacto",
+    "subheading": "Programa una consulta gratuita para discutir cómo la automatización con IA puede abordar tus desafíos empresariales específicos.",
+    "nameLabel": "¿Cuál es tu nombre?",
+    "namePlaceholder": "Nombre",
+    "emailLabel": "¿Cuál es tu correo electrónico?",
+    "emailPlaceholder": "Correo electrónico",
+    "roleLabel": "¿Cuál es tu rol dentro de tu organización?",
+    "rolePlaceholder": "Ingresa tu rol",
+    "companyNameLabel": "¿Nombre de la empresa?",
+    "companyNamePlaceholder": "Ingresa el nombre de la empresa",
+    "companyWebsiteLabel": "¿Sitio web de la empresa?",
+    "companyWebsitePlaceholder": "Ingresa el sitio web de la empresa",
+    "companySizeLabel": "¿Tamaño de la empresa?",
+    "companySizeOptions": {
+      "option1": "Menos de 20 personas",
+      "option2": "20-50 personas",
+      "option3": "51-200 personas",
+      "option4": "201-500 personas",
+      "option5": "501-1000 personas",
+      "option6": "Más de 1000 personas"
+    },
+    "revenueLabel": "¿Ingresos anuales de la empresa?",
+    "revenueOptions": {
+      "option1": "Menos de 100.000€/mes",
+      "option2": "100.000€-500.000€/mes",
+      "option3": "500.000€-1.000.000€/mes",
+      "option4": "1.000.000€-5.000.000€/mes",
+      "option5": "Más de 5.000.000€/mes"
+    },
+    "budgetLabel": "¿Presupuesto del proyecto?",
+    "budgetOptions": {
+      "option1": "0 - 5.000€",
+      "option2": "5.000€ - 10.000€",
+      "option3": "10.000€ - 25.000€",
+      "option4": "25.000€ - 50.000€",
+      "option5": "Más de 50.000€"
+    },
+    "servicesLabel": "¿Qué servicios te interesan?",
+    "servicesOptions": {
+      "option1": "Desarrollo de una solución de IA personalizada",
+      "option2": "Integración de IA con sistemas existentes",
+      "option3": "Consultoría de estrategia de IA",
+      "option4": "Análisis de datos e insights",
+      "option5": "Automatización con IA",
+      "option6": "Otro"
+    },
+    "messageLabel": "¿Cómo podemos ayudarte?",
+    "messagePlaceholder": "Escribe tu mensaje aquí...",
+    "submitButton": "Enviar",
+    "successMessage": "Gracias por tu consulta. Nos pondremos en contacto contigo pronto."
+  }
+} 

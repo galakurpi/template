@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Svelte in Docker",
+        "type": "shell",
+        "command": "docker-compose up",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "isBackground": true,
+        "problemMatcher": [],
+        "detail": "Levanta el contenedor Docker con el entorno de desarrollo de Svelte."
+      },
+      {
+        "label": "Build Svelte in Docker",
+        "type": "shell",
+        "command": "docker-compose run --rm svelte npm run build",
+        "group": "build",
+        "problemMatcher": [],
+        "detail": "Construye el proyecto Svelte dentro de Docker."
+      },
+      {
+        "label": "Run Svelte Tests",
+        "type": "shell",
+        "command": "docker-compose run --rm svelte npm test",
+        "group": "test",
+        "problemMatcher": [],
+        "detail": "Ejecuta los tests del proyecto Svelte dentro de Docker."
+      },
+      {
+        "label": "Stop Docker",
+        "type": "shell",
+        "command": "docker-compose down",
+        "group": "build",
+        "problemMatcher": [],
+        "detail": "Detiene y elimina los contenedores Docker."
+      }
+    ]
+  }

@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "title": "AI Automation Solutions for Businesses | Yekar",
+    "description": "Transform your business operations with our AI automation solutions. Increase efficiency, reduce costs, and improve customer experience with Yekar."
+  },
+  "hero": {
+    "title": "Optimize Your Business with AI",
+    "subtitle": "We study your business processes in depth and apply solutions to reduce costs and save time.",
+    "primaryButton": "Contact Us",
+    "secondaryButton": ""
+  },
+  "benefits": {
+    "title": "How Can We Help You?",
+    "description": "AI will transform every sector.\nWe ensure this change propels your business forward, not left behind.",
+    "items": [
+      {
+        "title": "Greater Efficiency",
+        "description": "We help automate tasks to reduce costs and save time."
+      },
+      {
+        "title": "Guaranteed Security",
+        "description": "We implement solutions with rigorous protocols that protect your data and operations."
+      },
+      {
+        "title": "Better Customer Experience",
+        "description": "Deliver personalized interactions and faster response times.\nBoth in the purchase process and post-purchase."
+      },
+      {
+        "title": "Decision Making",
+        "description": "Leverage your company's data to make better strategic decisions."
+      }
+    ]
+  },
+  "process": {
+    "title": "How We Implement",
+    "description": "A structured approach that minimizes disruption.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Education",
+        "description": "We teach you how AI works. The basics and the latest advancements. Also the possible risks and benefits for your business."
+      },
+      {
+        "number": "02",
+        "title": "Assessment",
+        "description": "We study your processes to identify automations with the highest potential impact.\nWe create an action plan for your business."
+      },
+      {
+        "number": "03",
+        "title": "Development",
+        "description": "We build customized solutions that integrate into your business context."
+      },
+      {
+        "number": "04",
+        "title": "Tracking",
+        "description": "We measure the performance of applied solutions to ensure they work.\nWe continuously improve your automations.\nWe keep you updated on the latest AI developments."
+      }
+    ]
+  },
+  "caseStudies": {
+    "title": "Solutions",
+    "description": "Yekar started as a software product company.\nWe've added internal automations and see the big difference they make.\nWe want to take this change to the world. Here are some of our examples:",
+    "cases": [
+      {
+        "industry": "Marketing",
+        "title": "Automated video creation",
+        "description": "We reduced the time it takes to create a short marketing video from 3 hours to 30 minutes.",
+        "metrics": ["Time saved: 150 minutes per video", "6x faster", "Consistent quality"]
+      },
+      {
+        "industry": "Product development",
+        "title": "Automated internal documentation search",
+        "description": "We structured our internal documentation and we use AI to find what we need in seconds (primarily related to software development).",
+        "metrics": ["Software development 50% faster", "Error reduction", "User experience improvement"]
+      }
+    ],
+    "possibilities": {
+      "title": "Endless Possibilities",
+      "departments": [
+        {
+          "name": "Marketing",
+          "description": "Automatic content creation and publishing, refinement based on data analysis."
+        },
+        {
+          "name": "Sales",
+          "description": "Sales automation, outbound lead generation, and customer relationship management."
+        },
+        {
+          "name": "Customer Support",
+          "description": "Ticket management, customer service, and product support."
+        },
+        {
+          "name": "HR",
+          "description": "Recruitment process optimization and talent management."
+        },
+        {
+          "name": "Finance",
+          "description": "Report automation, cost analysis, and predictive analysis."
+        },
+        {
+          "name": "Product Development",
+          "description": "Process optimization and market analysis."
+        }
+      ],
+      "conclusion": "We have identified and designed specific automations internally that we are now ready to implement in our and other businesses."
+    }
+  },
+  "cta": {
+    "title": "Let's talk about your case",
+    "description": "Schedule a consultation to talk about your company and see how you can leverage AI.",
+    "primaryButton": "Contact Us",
+    "secondaryButton": ""
+  },
+  "contact": {
+    "title": "Contact Us - AI Automation Solutions | Yekar",
+    "description": "Do you have an exciting AI idea, a question, or just want to chat about our work? We're here to listen! Get in touch, and we will be ready to help, guide, or simply share in your enthusiasm. Let's create a memorable AI journey together!",
+    "heading": "Get in Touch",
+    "subheading": "Schedule a free consultation to discuss how AI automation can address your specific business challenges",
+    "nameLabel": "What is your name?",
+    "namePlaceholder": "Name",
+    "emailLabel": "What is your email?",
+    "emailPlaceholder": "Email",
+    "roleLabel": "What is your role within your organization?",
+    "rolePlaceholder": "Enter role",
+    "companyNameLabel": "Company name?",
+    "companyNamePlaceholder": "Enter company name",
+    "companyWebsiteLabel": "Company website?",
+    "companyWebsitePlaceholder": "Enter company website",
+    "companySizeLabel": "Company size?",
+    "companySizeOptions": {
+      "option1": "Less than 20 people",
+      "option2": "20-50 people",
+      "option3": "51-200 people",
+      "option4": "201-500 people",
+      "option5": "501-1000 people",
+      "option6": "1001+ people"
+    },
+    "revenueLabel": "Company's annual revenue?",
+    "revenueOptions": {
+      "option1": "Less than $100K/month",
+      "option2": "$100K-$500K/month",
+      "option3": "$500K-$1M/month",
+      "option4": "$1M-$5M/month",
+      "option5": "$5M+/month"
+    },
+    "budgetLabel": "Project budget?",
+    "budgetOptions": {
+      "option1": "$0 - $5000",
+      "option2": "$5000 - $10000",
+      "option3": "$10000 - $25000",
+      "option4": "$25000 - $50000",
+      "option5": "$50000+"
+    },
+    "servicesLabel": "What services are you interested in?",
+    "servicesOptions": {
+      "option1": "Developing a custom AI solution",
+      "option2": "AI integration with existing systems",
+      "option3": "AI strategy consulting",
+      "option4": "Data analysis and insights",
+      "option5": "AI automation",
+      "option6": "Other"
+    },
+    "messageLabel": "How can we help?",
+    "messagePlaceholder": "Type your response here...",
+    "submitButton": "Submit",
+    "successMessage": "Thank you for your inquiry. We will contact you shortly."
+  }
+} 

@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "packageNames": ["svelte", "svelte-kit", "@sveltejs/kit"],
+      "groupName": "svelte-packages",
+      "schedule": ["before 9am on monday"]
+    },
+    {
+      "packageNames": ["eslint", "prettier"],
+      "groupName": "linter-packages",
+      "schedule": ["before 10am on monday"]
+    }
+  ],
+  "ignoreDeps": [
+    "typescript"
+  ],
+  "postUpgradeTasks": {
+    "commands": [
+      "npm run lint",
+      "npm run build"
+    ],
+    "fileFilters": [
+      "package.json",
+      "src/**"
+    ]
+  }
+}

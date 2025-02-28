@@ -11,9 +11,9 @@ videos/
 frontend/node_modules/
 frontend/dist/
 frontend/videos/
+frontend/build/
 
 # Front
-frontend/
 
 # Compiled Java class files
 *.class
@@ -72,6 +72,8 @@ migrations/
 
 # Environment variables
 .env
+*.env
+.env.*
 
 # modelos/
 
