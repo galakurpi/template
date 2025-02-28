@@ -1,0 +1,55 @@
+{
+    "configurations": [
+        {
+            "name": "Django run server",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\backend\\manage.py",
+            "args": ["runserver"],
+            "django": true,
+            "justMyCode": true,
+            "env": {
+                "DB_PASS": "12qwop90",
+                "DB_USER": "admin1",
+                "DB_NAME": "trainer",
+                "LOCAL": "True",
+                "DJANGO_DEBUG": "True"
+            }
+        },
+        {
+            "name": "DJANGO Makemigrations",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\backend\\manage.py",
+            "args": ["makemigrations"],
+            "django": true,
+            "justMyCode": true,
+            "env": {
+                "DB_PASS": "12qwop90",
+                "DB_USER": "admin1",
+                "DB_NAME": "trainer"
+            }
+        },
+        {
+            "name": "DJANGO Migrate",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\backend\\manage.py",
+            "args": ["migrate"],
+            "django": true,
+            "justMyCode": true,
+            "env": {
+                "DB_PASS": "12qwop90",
+                "DB_USER": "admin1",
+                "DB_NAME": "trainer"
+            }
+        },
+        {
+            "command": "npm run dev",
+            "name": "Run npm dev",
+            "request": "launch",
+            "type": "node-terminal",
+            "cwd": "${workspaceFolder}\\frontend"
+        }
+    ]
+}

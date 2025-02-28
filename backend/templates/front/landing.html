@@ -1,0 +1,33 @@
+<!-- backend/templates/front/landing.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="csrf-token" content="{{ csrf_token }}" />
+    <title>AI Automation Solutions for Business | Yekar</title>
+    <meta name="description" content="We help businesses solve real problems with AI automation. Increase efficiency, reduce costs, and drive innovation.">
+    <link rel="icon" type="image/png" href="{% static 'icons/icon.png' %}?v={{ version }}" />
+    <link rel="stylesheet" href="{% static 'styles/base.css' %}?v={{ version }}" />
+    <link rel="stylesheet" href="{% static 'frontend/bundle.css' %}?v={{ version }}" />
+    <script defer type="module" src="{% static 'frontend/landing.js' %}?v={{ version }}"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="AI Automation Solutions for Business | Yekar">
+    <meta property="og:description" content="We help you use AI to solve real problems. Transform your business with practical AI solutions.">
+    <meta property="og:image" content="{% static 'icons/icon.png' %}">
+    <meta property="og:url" content="{{ request.build_absolute_uri }}">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <style>
+      body {
+        background-color: #000000;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body></body>
+</html> 

@@ -1,0 +1,124 @@
+networks:
+  service-network:
+
+services:
+  database:
+    container_name: template-database
+    image: postgres:13
+    restart: unless-stopped
+    environment:
+      - POSTGRES_HOST=database
+      - POSTGRES_DB=devdatabase
+      - POSTGRES_USER=desa
+      - POSTGRES_PASSWORD=desa
+      - POSTGRES_PORT=5432
+      - POSTGRES_INITDB_ARGS=--auth-host=trust
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - service-network
+
+  redis:
+    container_name: template-redis
+    image: redis:latest
+    restart: unless-stopped
+    ports:
+      - 6379:6379
+    networks:
+      - service-network
+
+  backend:
+    env_file:
+      - .env
+    build:
+      context: ./backend/
+      target: backend
+    container_name: template-backend
+    restart: unless-stopped
+    volumes:
+      - ./backend:/app
+      - ./backend/static:/app/backend/static
+      - ./videos:/vol/web/media:rw
+    depends_on:
+      - database
+      - redis
+    command: bash entrypoint.sh
+    ports:
+      - '8001:8000'
+    networks:
+      - service-network
+
+  migrate:
+    container_name: template-migrate
+    env_file:
+      - .env
+    build:
+      context: ./backend/
+      target: backend
+    volumes:
+      - ./backend:/app
+      - ./backend/static:/app/backend/static
+      - ./videos:/vol/web/media:rw
+    depends_on:
+      - database
+      - redis
+    command: bash entrypoint.sh
+    networks:
+      - service-network
+
+  celery:
+    container_name: template-celery-worker
+    env_file:
+      - .env
+    build:
+      context: ./backend/
+      target: celery
+    restart: unless-stopped
+    volumes:
+      - ./backend:/app
+      - ./videos:/vol/web/media:rw
+      - ./backend/ml_models:/ml_models:rw
+    environment:
+      - WORKER=celery
+      - PROCESSED_VIDEO_FOLDER=/vol/web/media/processed
+      - ALLOWED_HOSTS=${ALLOWED_HOSTS}
+    command: bash entrypoint.sh
+    deploy:
+      resources:
+        limits:
+          memory: 8g  
+    networks:
+      - service-network
+
+  frontend:
+    container_name: template-frontend
+    build: ./frontend/
+    volumes:
+      - ./frontend:/app
+      - ./frontend/build:/app/build
+      - /app/node_modules
+    ports:
+      - 3000:3000
+    environment:
+      - NODE_OPTIONS=--max_old_space_size=4096
+    command: sh -c "npm install && npm run build"
+    networks:
+      - service-network
+
+  nginx:
+    container_name: template-nginx
+    image: nginx:alpine
+    ports:
+      - "8020:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./videos:/vol/web/media:ro
+    depends_on:
+      - backend
+    networks:
+      - service-network
+
+volumes:
+  postgres-data:

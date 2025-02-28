@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "622d7723-54d8-4f78-8f24-e448d41851f3"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.jonyekar.svelteapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    }
+  }
+}

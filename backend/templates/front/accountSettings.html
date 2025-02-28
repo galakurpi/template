@@ -1,0 +1,18 @@
+<!-- backend/templates/front/accountSettings.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="csrf-token" content="{{ csrf_token }}" />
+    <title>Yekar: Account Settings</title>
+    <link rel="icon" type="image/png" href="{% static 'icons/icon.png' %}?v={{ version }}" />
+    <link rel="stylesheet" href="{% static 'styles/base.css' %}?v={{ version }}" />
+    <link rel="stylesheet" href="{% static 'frontend/bundle.css' %}?v={{ version }}" />
+    <script src="https://js.stripe.com/v3/"></script>
+    <script defer type="module" src="{% static 'frontend/accountSettings.js' %}?v={{ version }}"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body></body>
+</html>

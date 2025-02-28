@@ -1,0 +1,34 @@
+Django==4.2.4
+asgiref
+sqlparse
+psycopg2-binary
+gunicorn
+whitenoise
+
+# Authentication & API
+django-extensions
+django-cors-headers
+drf-yasg==1.21.8
+
+# Payments
+stripe
+
+# Environment & Configuration
+python-dotenv
+
+# Core Utilities
+requests
+Pillow
+redis
+celery
+kombu
+amqp
+vine
+billiard
+
+# Session & Security
+cryptography
+pyjwt
+
+# Database
+tzdata
